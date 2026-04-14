@@ -120,5 +120,7 @@
         </tbody>
     </table>
 
+    <p th:text="'실습 수행 일시: ' + ${#temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss')} + ' | 학번: 2171122 | 성명: 신현규'"></p>
+
 </body>
 </html>
